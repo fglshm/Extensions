@@ -3,6 +3,7 @@ package com.fglshm.extensions
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.fglshm.extensions2.setInvisible
+import com.fglshm.extensions2.transact
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -12,5 +13,11 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         progress.setInvisible()
+
+        supportFragmentManager.transact {
+
+        }
+
+
     }
 }
