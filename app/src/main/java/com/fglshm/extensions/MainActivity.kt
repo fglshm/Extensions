@@ -2,8 +2,7 @@ package com.fglshm.extensions
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.fglshm.extensions2.setInvisible
-import com.fglshm.extensions2.transact
+import com.fglshm.extensions2.*
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -18,6 +17,12 @@ class MainActivity : AppCompatActivity() {
 
         }
 
+        val width = screenWidth()
+        val height = screenHeight()
+
+        this.showLogD("Hello world!!!")
+
+        width.toString().showToastInCenter(this)
 
     }
 }
