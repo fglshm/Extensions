@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
 
         width.toString().showToastInCenter(this)
 
-
+        cls.showLogD("Hello!!!")
 
     }
 }
