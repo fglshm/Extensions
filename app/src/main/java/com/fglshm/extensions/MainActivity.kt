@@ -19,6 +19,8 @@ class MainActivity : AppCompatActivity() {
 
         }
 
+
+
         val width = screenWidth()
         val height = screenHeight()
 
